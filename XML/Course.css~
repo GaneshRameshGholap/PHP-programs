@@ -1,0 +1,23 @@
+Student_name
+{
+      display:block;
+      color:blue;
+      font-family:Madan;
+      font-style:italic;
+      font-size:16;
+}
+Class_name
+{
+      color:green;
+      font-family:Sans;
+      font-size:12;
+}
+percentage
+{
+      display:block;
+      color:red;
+      font-family:Serif;
+      font-style:oblique;
+      font-size:12;
+}
+

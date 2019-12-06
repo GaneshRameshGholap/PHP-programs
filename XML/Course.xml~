@@ -1,0 +1,30 @@
+<?xml-stylesheet type="text/css" href="Course.css"?>
+<Course>
+	<Computer_science>
+	<Student_name>Vishal</Student_name>
+	<Class_name>TY.BSC</Class_name>
+	<percentage>80</percentage>
+
+	<Student_name>Aniket</Student_name>
+	<Class_name>TY.BSC</Class_name>
+	<percentage>99</percentage>
+	
+        <Student_name>Akash</Student_name>
+	<Class_name>SY.BSC</Class_name>
+	<percentage>88</percentage>
+
+	<Student_name>Sanket</Student_name>
+	<Class_name>SY.BSC</Class_name>
+	<percentage>78</percentage>
+
+	<Student_name>pravin</Student_name>
+	<Class_name>FY.BSC</Class_name>
+	<percentage>70</percentage>
+
+	<Student_name>vinay</Student_name>
+	<Class_name>TY.BSC</Class_name>
+	<percentage>80</percentage>
+
+	</Computer_science>
+</Course>
+

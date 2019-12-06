@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Book>
+
+        <book cat="regional">
+	<name>Mrutanjay </name>
+        <author>Shivaji sawant</author>
+        <publication>AK</publication>
+        <year>2015</year>
+        <price>400</price>
+        </book>
+
+
+	<book cat="regional">
+        <name>Mhabharat</name>
+        <author> swami prabhu</author>
+        <publication>SM</publication>
+        <year>2010</year>
+        <price>200</price>
+        </book>
+
+
+	<book cat="technical">
+        <name>Java2</name>
+        <author>Herbult sichuld</author>
+        <publication>tata macrohill</publication>
+        <year>2009</year>
+        <price>1000</price>
+        </book>
+</Book>

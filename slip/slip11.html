@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<script>
+var queue=new Array();
+function validate()
+{
+	if((document.getElementById("name").value)!=null)
+	{
+		 alert("Name="+document.getElementById("name").value);
+	}
+        if((document.getElementById("age").value)>=1 && (document.getElementById("age").value)<=20)
+        {
+                  alert("Age="+document.getElementById("age").value);
+        }
+        alert("Mobile="+document.getElementById("mobile").value);
+}
+</script>
+</head>
+<body>
+Enter the Student Name:<input type=text id="name"><br>
+Enter the Student age:<input type=text id="age"><br>
+Enter the Student mobile:<input type=text id="mobile"><br>
+<button onclick="validate()">Submit</button><br/>
+</body>
+</html>
+

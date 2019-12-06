@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+	function validate(str)
+	{
+		xmlhttp=new XMLHttpRequest();
+		xmlhttp.onreadystatechange=function()
+		{
+			if(xmlhttp.readyState==4)
+			{
+				document.getElementById("div1").innerHTML=xmlhttp.responseText;
+			}
+		}
+		xmlhttp.open("GET","validate.php?txtdata="+str,true);
+		xmlhttp.send();
+	}
+</script>
+</head>
+<body>
+<input type=text name=txtdata onkeyup="validate(this.value)">
+<div id="div1">Display validation message here</div>
+</body>

@@ -1,0 +1,14 @@
+<movie>
+	<Category type="Classical">
+	<Movie_name>3 iditos</Movie_name>
+        <Release_year>2013</Release_year>
+        </Category>
+        <Category type="Action">
+        <Movie_name>Harry Potter</Movie_name>
+        <Release_year>2015</Release_year>
+        </Category>
+        <Category type="Horror">
+        <Movie_name>Raz3</Movie_name>
+        <Release_year>2011</Release_year>
+        </Category>
+</movie>

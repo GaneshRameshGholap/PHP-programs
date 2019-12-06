@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script type="text/javascript">
+function showEmp(str)
+{
+	if(window.XMLHttpRequest)
+	{
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		xmlhttp=new ActiveXObject("Microsoft.XMLHttp");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+		if(xmlhttp.readyState==4&& xmlhttp.status==200)
+		{
+			document.getElementById("res").innerHTML=xmlhttp.responseText;
+		}
+	}
+        xmlhttp.open("GET","getemp.php?q="+str,true);
+        xmlhttp.send();
+}
+</script>
+</head>
+<body>
+<form>
+<select name="q" onchange="showEmp(this.value)">
+<option value="ganesh">Ganesh</option>
+<option value="pratik">Pratik</option>
+<option value="sanket">Sanket</option>
+<option value="pravin">Pravin</option>
+</select>
+</form>
+<div id="res">Choose Selection..</div>
+</body>
+</html>
+

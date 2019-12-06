@@ -1,0 +1,43 @@
+</php
+do
+{
+echo "1. Create Array\n";
+echo "2. Display array\n";
+echo "3. count elements of array\n"; 
+echo "4. Delete element\n";
+echo "5. Flip array\n";
+echo "6. Shuffle array\n";
+echo "7. Exit\n";
+echo "Enter your choice : ";
+$ch = fgets(STDIN);
+switch($ch)
+{
+	case 1 : echo "Enter how many elements in the array : ";
+		$n = fgets(STDIN);
+		for($i=0;$i<$n;$i++)
+		{
+			echo "Enter element $i : ";
+			$ele = fgets(STDIN);
+			$arr[$i] = $ele;
+		}
+		break;
+	case 2 : print_r($arr);
+		break;
+	case 3 : $count = count($arr);
+		echo "There are $count elements in the array.\n";
+		break;
+	case 4 : unset($arr[2]);
+		print_r($arr);
+		break;
+	case 5 :  $flipped = array_flip($arr);
+		echo "The flipped array is : ";
+		print_r($flipped);
+		break;
+	case 6 :  shuffle($arr);
+		print_r($arr);
+		break;
+	case 7 : exit();
+
+}
+}while($ch!=7);
+?>

@@ -1,0 +1,14 @@
+<Cricket_Team>
+<Team country="india">
+	<Name>Sachin</Name>
+	<Wickets>100</Wickets>
+        <Runs>10000</Runs>
+        <Name>Dravid</Name>
+        <Wickets>23</Wickets>
+        <Runs>5000</Runs>
+	<Name>Virat</Name>
+        <Wickets>20</Wickets>
+        <Runs>11000</Runs>
+</Team>
+</Cricket_Team>
+

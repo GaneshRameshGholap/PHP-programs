@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<script>
+var queue=new Array();
+function addQueue()
+{
+	var inputValue=document.getElementById("txtInput").value;
+	if(inputValue)
+	{
+		queue.push(inputValue);
+	}
+	document.getElementById("txtInput").value="";
+}
+function delQueue()
+{
+	var Qvalue=queue.shift();
+	if(!Qvalue)
+	{
+		Qvalue="Queue is Empty";
+	}
+	document.getElementById("queueResult").innerHTML=Qvalue;
+}
+</script>
+</head>
+<body>
+Enter the input:<input type=text id="txtInput"><br>
+<button onclick="addQueue()">Add to queue</button><br/>
+<button onclick="delQueue()">Delete from queue</button><br/>
+<span id="queueResult">Result</span>
+</body>
+</html>
+

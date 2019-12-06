@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<style>
+visibility:hidden;
+</style>
+<script>
+function validate()
+{
+	var element=document.myform.name.value;
+	var img1=document.getElementById("img2").innerHTML;
+	var msg=document.getElementById("xyz").innerHTML;
+	if(element=="ganesh")
+	{
+		img.style.visibility='hidden';
+		element.style.fontsize=30;
+		element.style.color=red;
+                msg.innerHTML="Correct Name...";
+		msg.style.visibility='visible';
+		return true;
+	}
+	else
+	{
+		msg.style.visibility='hidden';
+		img.style.visibility='visible';
+		return flase;
+	}
+}
+function maxImg(x)
+{
+	x.style.height=100px;
+	x.style.width=100px;
+}
+function minImg(x)
+{
+	x.style.height=100px;
+	x.style.width=100px;
+}
+</script>
+</head>
+<body>
+<form name="myform">
+Enter the input:<input type="text" name="name"><br>
+<p id="xyz">Not Correct Name</p>
+<img src=" " onmouseover="maxImg(this)" onmouseup="minImg(this)" id="simely" height=200 width=200>
+<input type=submit value=submit onsubmit="validate()">
+</form>
+</body>
+</html>
+

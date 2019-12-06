@@ -1,0 +1,26 @@
+table,td,th{
+border:2px solid green;
+}
+.table100
+{
+Font-family:Arial,Helvetica,sans-serif;
+background-color:blue;
+width:100%;
+}
+.td20
+{
+color:red;
+height:20%;
+}
+.tr21
+{
+background-color:yellow;
+color:green;
+height:55%;
+}
+.td22
+{
+background-color:orange;
+color:blue;
+height:55%;
+}

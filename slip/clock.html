@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function displayClock()
+{
+        
+	var today= new Date();
+	h = today.getHours();
+	m = today.getMinutes();
+	s = today.getSeconds();
+	document.getElementById("name").value=h+":"+m+":"+s;
+}
+</script>
+</head>
+<body>
+<input type=text id="name"><br>
+<button onclick="displayClock()">Start</button><br/>
+</body>
+</html>
+

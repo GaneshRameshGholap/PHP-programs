@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<body>
+<script>
+function validate()
+{
+	if(document.form1.user.value=null && document.form1.user.value="")
+	{
+		document.write("Invalid username");
+	}
+	else if(document.form1.pwd.value=null&&document.form1.pwd.value="")
+	{
+		document.write("Invalid password");
+	}
+	else
+	{
+		document.write("successfull");
+	}
+}
+</script>
+<form name="form1" method=GET onsubmit="return validate()">
+Username:<input type=text name=user><br>
+Password:<input type=password name=pwd><br>
+<input type=submit value=submit>
+</form>
+</body>
+</html>
